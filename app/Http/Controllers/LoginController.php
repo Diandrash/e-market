@@ -71,6 +71,6 @@ class LoginController extends Controller
         Alert::success('Success', 'Logout Success');
         return view('welcome', [
             'title' => 'Home Page'
-        ]);
+        ]); 
     }
 }
